@@ -1,0 +1,329 @@
+.container {
+  width: 100%;
+  max-width: 980px;
+  height: 100%;
+  padding: 0 25px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: strech;
+  -ms-flex-align: strech;
+  align-items: strech; }
+
+.col-1 {
+  width: calc(8.33333333% * 1 - 12.5px); }
+
+.col-2 {
+  width: calc(8.33333333% * 2 - 12.5px); }
+
+.col-3 {
+  width: calc(8.33333333% * 3 - 12.5px); }
+
+.col-4 {
+  width: calc(8.33333333% * 4 - 12.5px); }
+
+.col-5 {
+  width: calc(8.33333333% * 5 - 12.5px); }
+
+.col-6 {
+  width: calc(8.33333333% * 6 - 12.5px); }
+
+.col-7 {
+  width: calc(8.33333333% * 7 - 12.5px); }
+
+.col-8 {
+  width: calc(8.33333333% * 8 - 12.5px); }
+
+.col-9 {
+  width: calc(8.33333333% * 9 - 12.5px); }
+
+.col-10 {
+  width: calc(8.33333333% * 10 - 12.5px); }
+
+.col-11 {
+  width: calc(8.33333333% * 11 - 12.5px); }
+
+.col-12 {
+  width: calc(8.33333333% * 12 - 12.5px); }
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .col-tab-1 {
+    width: calc(8.33333333% * 1 - 12.5px); } }
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .col-tab-2 {
+    width: calc(8.33333333% * 2 - 12.5px); } }
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .col-tab-3 {
+    width: calc(8.33333333% * 3 - 12.5px); } }
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .col-tab-4 {
+    width: calc(8.33333333% * 4 - 12.5px); } }
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .col-tab-5 {
+    width: calc(8.33333333% * 5 - 12.5px); } }
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .col-tab-6 {
+    width: calc(8.33333333% * 6 - 12.5px); } }
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .col-tab-7 {
+    width: calc(8.33333333% * 7 - 12.5px); } }
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .col-tab-8 {
+    width: calc(8.33333333% * 8 - 12.5px); } }
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .col-tab-9 {
+    width: calc(8.33333333% * 9 - 12.5px); } }
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .col-tab-10 {
+    width: calc(8.33333333% * 10 - 12.5px); } }
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .col-tab-11 {
+    width: calc(8.33333333% * 11 - 12.5px); } }
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .col-tab-12 {
+    width: calc(8.33333333% * 12 - 12.5px); } }
+
+@media (min-width: 1024px) {
+  .col-desk-1 {
+    width: calc(8.33333333% * 1 - 12.5px); } }
+
+@media (min-width: 1024px) {
+  .col-desk-2 {
+    width: calc(8.33333333% * 2 - 12.5px); } }
+
+@media (min-width: 1024px) {
+  .col-desk-3 {
+    width: calc(8.33333333% * 3 - 12.5px); } }
+
+@media (min-width: 1024px) {
+  .col-desk-4 {
+    width: calc(8.33333333% * 4 - 12.5px); } }
+
+@media (min-width: 1024px) {
+  .col-desk-5 {
+    width: calc(8.33333333% * 5 - 12.5px); } }
+
+@media (min-width: 1024px) {
+  .col-desk-6 {
+    width: calc(8.33333333% * 6 - 12.5px); } }
+
+@media (min-width: 1024px) {
+  .col-desk-7 {
+    width: calc(8.33333333% * 7 - 12.5px); } }
+
+@media (min-width: 1024px) {
+  .col-desk-8 {
+    width: calc(8.33333333% * 8 - 12.5px); } }
+
+@media (min-width: 1024px) {
+  .col-desk-9 {
+    width: calc(8.33333333% * 9 - 12.5px); } }
+
+@media (min-width: 1024px) {
+  .col-desk-10 {
+    width: calc(8.33333333% * 10 - 12.5px); } }
+
+@media (min-width: 1024px) {
+  .col-desk-11 {
+    width: calc(8.33333333% * 11 - 12.5px); } }
+
+@media (min-width: 1024px) {
+  .col-desk-12 {
+    width: calc(8.33333333% * 12 - 12.5px); } }
+
+.bg-dark {
+  background-color: rgba(0, 0, 0, 0.4); }
+
+.ml-auto {
+  margin-left: auto; }
+
+.mr-auto {
+  margin-right: auto; }
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto; }
+
+.p-xs {
+  padding: 6.25px; }
+
+.p-sm {
+  padding: 12.5px; }
+
+.p-md {
+  padding: 25px; }
+
+.p-lg {
+  padding: 50px; }
+
+.p-xl {
+  padding: 100px; }
+
+.text-white {
+  color: white; }
+  .text-white h1, .text-white h2, .text-white h3, .text-white h4, .text-white h5, .text-white h6 {
+    color: white; }
+
+.text-center {
+  text-align: center; }
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif; }
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0 0 1rem 0;
+  padding: 0;
+  font-family: "Yeseva One", cursive;
+  color: #cc9900; }
+
+h1 {
+  font-size: 2.5rem; }
+
+h2 {
+  font-size: 2rem; }
+
+h3 {
+  font-size: 1.75rem; }
+
+h4 {
+  font-size: 1.5rem; }
+
+h5 {
+  font-size: 1.25rem; }
+
+h6 {
+  font-size: 1rem; }
+
+section {
+  padding: 100px;
+  min-height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.btn {
+  padding: 20px 40px;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: inline-block; }
+
+.btn-dark {
+  background-color: rgba(0, 0, 0, 0.4);
+  border: 1px solid black;
+  color: white; }
+
+.btn-light {
+  background-color: rgba(255, 255, 255, 0.4);
+  border: 1px solid white;
+  color: white; }
+
+.btn-primary {
+  background-color: rgba(255, 255, 255, 0.4);
+  border: 1px solid white;
+  color: white; }
+
+.img-responsive {
+  width: 100%; }
+
+.site-header {
+  position: fixed;
+  width: 100%;
+  height: 110px; }
+
+.main-navigation ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  margin: 0; }
+  .main-navigation ul li {
+    border-top: 3px solid transparent;
+    margin-left: 30px; }
+    .main-navigation ul li a {
+      color: white;
+      line-height: 110px;
+      font-size: 1.2rem;
+      text-decoration: none; }
+    .main-navigation ul li.active {
+      border-top: 3px solid white; }
+
+.logo {
+  display: block; }
+
+.site-footer {
+  background-color: #191919;
+  padding: 50px; }
+
+.banner {
+  background-image: url(../images/bg-header-d.jpg);
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  height: 100vh; }
+  @media (max-width: 480px) {
+    .banner {
+      background-image: url(../images/bg-header-m.jpg); } }
+
+.banner-heading {
+  text-align: center;
+  margin-bottom: 25px;
+  color: white;
+  font-size: 3rem; }
+
+.reservations {
+  background-image: url(../images/bg-reservations.jpg); }
+
+.menu {
+  background-image: url(../images/bg-menu.jpg); }
+
+.ingredients {
+  background-image: url(../images/bg-ingredients.jpg); }
+
+.ingredient {
+  border-radius: 50%;
+  border: 5px solid rgba(255, 255, 255, 0.09);
+  width: 100px;
+  height: 100px; }
+
+.about {
+  background-image: url(../images/bg-about.jpg); }
+
+.reviews {
+  background-image: url(../images/bg-reviews.jpg); }
+
+/*# sourceMappingURL=styles.css.map */

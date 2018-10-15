@@ -1,0 +1,21 @@
+.btn {
+  padding: 20px 40px;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: inline-block;
+}
+.btn-dark {
+  background-color: rgba(0, 0, 0, .4);
+  border: 1px solid black;
+  color: white;
+}
+.btn-light {
+  background-color: rgba(255, 255, 255, .4);
+  border: 1px solid white;
+  color: white;
+}
+.btn-primary {
+  background-color: rgba(255, 255, 255, .4);
+  border: 1px solid white;
+  color: white;
+}

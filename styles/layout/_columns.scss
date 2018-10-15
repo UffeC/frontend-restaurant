@@ -1,0 +1,19 @@
+@for $i from 1 to 13 {
+  .col-#{$i} {
+    width: calc(8.33333333% * #{$i} - #{$spacer-2});
+  }
+}
+@for $i from 1 to 13 {
+  @include tablet {
+    .col-tab-#{$i} {
+      width: calc(8.33333333% * #{$i} - #{$spacer-2});
+    }
+  }
+}
+@for $i from 1 to 13 {
+  @include desktop {
+    .col-desk-#{$i} {
+      width: calc(8.33333333% * #{$i} - #{$spacer-2});
+    }
+  }
+}
