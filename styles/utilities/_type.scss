@@ -1,9 +1,27 @@
 .text-white {
-	color: white;
-	h1, h2, h3, h4, h5, h6 {
-		color: white;		
-	}
+  color: white;
+  h1, h2, h3, h4, h5, h6 {
+    color: white;
+    background-image: url(../images/divider-white.png);
+  }
+  p {
+    color: white;    
+  }
 }
 .text-center {
-	text-align: center;
+  text-align: center;
+  h1, h2, h3, h4, h5, h6 {
+    background-position: center bottom;
+  }
+}
+h1, h2, h3, h4, h5, h6 {
+  &.text-center {
+    background-position: center bottom;
+  }
+}
+.text-right {
+  text-align: right;
+  h1, h2, h3, h4, h5, h6 {
+    background-position: right bottom;
+  }
 }
